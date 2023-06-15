@@ -129,3 +129,57 @@ body::before{
     text-decoration: underline; /*aparece o risco embaixo quando passa o mouse por cima do preicsa de ajuda*/
  }
  
+ .login_facebook{/*estilo do login facebook*/
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+ }
+
+ .login_facebook span{/*css da logo do face e da escrita pq n tem como colocar a cor da escrita junto coma  logo*/
+    margin-right: 5px;
+    font-size: 13px;
+    
+ }
+
+ .login_facebook span a{ /*css do conectar ao face*/
+    text-decoration: none;
+    color: #737373;
+ }
+
+ .sign_up{ /*css do novo por aqui?*/
+    color: #737373;
+    font-size: 16px;
+ }
+
+ .sign_up a{ /*css do assine agora*/
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;
+ }
+
+ .sign_up a:hover{
+    text-decoration: underline;
+ }
+    
+ .terms{
+    color:#737373; /*Define a cor do texto*/
+    font-size: 13px; /*Define o tamanho da fonte*/
+
+    /*Está sendo aplicado ao elemento <div class="terms">
+    no código HTML. Portanto, todos os estilos definidos dentro 
+    dessa classe serão aplicados a esse elemento específico.*/
+ }
+
+ .terms a{
+    text-decoration: none; /*Remove a decoração de sublinhado do link (âncora) */
+    color: #0071eb; /*coloca a cor azul*/
+
+    /*define o trecho de código: <a href="#">saiba mais</a>.*/
+ }
+
+ .terms a:hover{
+    text-decoration: underline; /*Adiciona um sublinhado ao link quando o cursor do mouse passa por cima dele */
+
+    /*colocado no saiba mais*/
+ }
